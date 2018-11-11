@@ -23,8 +23,8 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
 
         final User.UserBuilder userBuilder = User.builder().passwordEncoder(encoder::encode);
                 userBuilder
-                .username("sidjam")
-                .password("$weet123!")
+                .username("********")
+                .password("********")
                 .roles("USER")
                 .build();
 
